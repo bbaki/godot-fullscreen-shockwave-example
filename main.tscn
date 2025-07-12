@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bv2yifr5bog84"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_3kcu1"]
+[ext_resource type="Texture2D" uid="uid://ghq155xt2hx7" path="res://pexels-jakkel-418831.jpg" id="1_pnxsd"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_3kcu1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_pnxsd")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.4, 1.4)
